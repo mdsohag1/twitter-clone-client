@@ -1,0 +1,82 @@
+.postSheare {
+   display: flex;
+   gap: 1rem;
+   background-color: var(--cardColor);
+   padding: 1rem;
+   border-radius: 1rem;
+}
+.postSheare > img {
+   border-radius: 50%;
+   width: 3rem;
+   height: 3rem;
+}
+.postSheare > div {
+   display: flex;
+   flex-direction: column;
+   width: 90%;
+   gap: 1rem;
+}
+.postSheare > div > input {
+   background-color: var(--inputColor);
+   border-radius: 10px;
+   padding: 10px;
+   font-size: 17px;
+   border: none;
+   outline: none;
+}
+.postOption {
+   display: flex;
+   justify-content: space-around;
+}
+.option {
+   padding: 5px;
+   padding-left: 10px;
+   padding-right: 10px;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 14px;
+}
+.option:hover {
+   cursor: pointer;
+}
+.ps-button {
+   padding: 5px 20px;
+   font-size: 12px;
+}
+.option > span {
+   margin-left: 5px;
+}
+.previewImage {
+   position: relative;
+}
+.previewImage > span {
+   position: absolute;
+   right: 1rem;
+   top: 0.5rem;
+   cursor: pointer;
+   font-weight: bold;
+   font-size: 20px;
+}
+.previewImage > img {
+   width: 100%;
+   object-fit: cover;
+   max-height: 700px;
+}
+.process {
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   background-color: rgb(89, 133, 253);
+   border: 2px solid #fff;
+   font-weight: bold;
+   color: #fff;
+   text-align: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}

@@ -1,0 +1,74 @@
+.auth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    height: 100vh;
+    position: relative;
+}
+.auth>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* left Side */
+.a-left{
+    gap: 2rem;
+}
+.a-left>img{
+    width: 4rem;
+    height: 4rem;
+}
+.webName>h1{
+    font-size: 3rem;
+    background-color: red;
+    background-image: var(--buttonBg);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.webName>h6{
+    font-size: 12px;
+}
+.infoForm{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.infoInput{
+    border: none;
+    outline: none;
+    background-color: var(--inputColor);
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+}
+.infoForm>div{
+    display: flex;
+    gap: 1rem;
+    height: 2rem;
+    width: 90%;
+}
+.infoButton{
+    width: 6rem;
+    height: 3rem;
+    align-self: end;
+}
+.auth-form{
+    background-color: var(--cardColor);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.auth-form>div{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 6px 0;
+}
